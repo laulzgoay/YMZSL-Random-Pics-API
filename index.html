@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="author" content="Xlch">
+		<title>云梦泽深林随机图片API</title>
+  		<link rel="shortcut icon" href="./statics/favicon.ico">
+		<meta name="keywords" content="云梦泽深林随机图片API,随机图片API,随机图片接口,随机图片,随机图片api源码,随机图片链接,二次元图片,高清图片,二次元API,动漫图片API,图片API">
+		<meta name="description" content="云梦泽深林随机图片API，随机动漫壁纸，24小时稳定运行，手机电脑平板一站通用，超多图片类型不定期更新，快来一起使用吧！">
+		<link rel="stylesheet" href="./statics/bootstrap.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./statics/main.css?ver=1.0">
+		<script type="text/javascript" src="./statics/jquery.min.js"></script>
+        <script src="./statics/jquery.cookie.min.js"></script>
+	</head>
+	<body>
+		<div>
+			<p class="title title2">云梦泽深林随机图片API</p>
+		</div>
+		<div class="container">
+			<div class="well">
+				<p>目前系统共收录 700+ 张图片 API最后更新时间:2022-08-19</p>
+			    <p>随机图片-图片默认均为https，高速访问</p>
+			    <pre>API累计已调用：<font color="#ff0000" id="ApiResult"></font>次</pre>
+			    <p>随机图片API基本调用格式：</p>
+				<pre>https://www.Your-API-Domain.com/pic/randpic.php</pre>
+				<p>参数：</p>
+				<pre>return=json/img/url/http/https/xml/baes64Img/base64Code</pre>
+				<p>JSON调用格式</p>
+                <pre>https://www.Your-API-Domain.com/pic/randpic.php?return=json</pre>
+				<p>XML调用格式</p>
+                <pre>https://www.Your-API-Domain.com/pic/randpic.php?return=xml</pre>
+			</div>
+		</div>
+		<div class="bottom">
+        	<p> Copyright &copy; 2022 <a target="_black" href="https://www.ymzsl.com" title="云梦泽深林工作室">云梦泽深林工作室</a> <a target="_black" href="https://blog.qcmoe.com" title="倾丞博客">倾丞博客</a> Version.1.0.0</p>
+        	<!-- 备案号开始-->
+        	<!-- <a href="https://beian.miit.gov.cn" target="_blank">XICP备-</a>-->
+        	<!-- 备案号结束-->
+        	<!-- 统计代码开始 -->
+        	<!-- 统计代码结束 -->
+		</div>
+			<!-- 读取API统计信息 -->
+	<script language="javascript">
+$(document).ready(function() {
+    $.ajax({
+        url: "./count.txt",
+        success: function(result) {
+            $("#ApiResult").html(result);
+        }
+    });
+});
+</script>
+	</body>
+</html>
